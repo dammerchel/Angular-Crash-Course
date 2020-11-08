@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-crsh-todolist';
+  name: string = 'Crash Course of Angular';
+
+  constructor(){
+    console.log('Component initialized');
+  }
 }
+
